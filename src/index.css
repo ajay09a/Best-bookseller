@@ -21,11 +21,13 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
+  cursor: pointer;
 }
 .book img{
   width: 100%;
   object-fit: cover;
   background: #cfdadd;
+  transition: transform .5s ease;
 }
 .book h2{
   font-size: 1rem;
@@ -35,4 +37,8 @@
   color: #766b6b;
   font-size: small;
   background: #cfdadd;
+}
+
+.book:hover img{
+  transform: scale(0.9);
 }
