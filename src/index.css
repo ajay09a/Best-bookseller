@@ -21,7 +21,7 @@
   border-radius: 1rem;
   padding: 2rem;
   text-align: center;
-  cursor: pointer;
+  position: relative;
 }
 .book img{
   width: 100%;
@@ -41,4 +41,26 @@
 
 .book:hover img{
   transform: scale(0.9);
+}
+
+.clickbtn{
+  width: 6vw;
+  height: 4vh;
+  border-radius: 10px;
+  border: 2px solid black;
+  background: black;
+  color: white;
+  margin-top: 8px;
+  cursor: pointer;
+}
+.number{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border-top-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background: #c35600;
+  color: #fff;
 }
